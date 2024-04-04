@@ -45,7 +45,7 @@ def create_mean_image(folder_path, output_path):
     print(f"Mean of {len(nifti_files)} images saved to: {output_path}")
 
 if __name__ == "__main__":
-    input_path = "../NIfTI"  # folder path containing NIfTI images
-    output_path = "../NIfTI"  # desired output path
+    input_path = r"/mnt/c/Users/lrm22005/OneDrive - University of Connecticut/Research/Stroke_MRI_data/SOOP_NIfTI_normalized/SOOP_NIfTI_normalized/NIfTI"  # folder path containing NIfTI images
+    output_path = r"/mnt/c/Users/lrm22005/OneDrive - University of Connecticut/Research/Stroke_MRI_data/SOOP_NIfTI_normalized/SOOP_NIfTI_normalized/NIfTI"  # desired output path
 
     create_mean_image(input_path, output_path)

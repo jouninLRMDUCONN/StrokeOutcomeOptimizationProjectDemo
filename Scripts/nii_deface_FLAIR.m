@@ -1,7 +1,7 @@
 function nii_deface_TRACE
 %dirs = dirVisible('/Users/chris/SOOP/bids/sub-*');
 %dirs = dirVisible('/Volumes/SOOP/soup/sub-*');
-dirs = dirVisible('/Users/chris/SOOP/sooper/sub-*');
+dirs = dirVisible('C:\Users\lrm22005\OneDrive - University of Connecticut\Research\Stroke_MRI_data\sub-*');
 dirs = dirVisible('/Users/chris/fx/bids/sub-*');
 for i = 1 : length(dirs)
     folder = fullfile(dirs(i).folder, dirs(i).name, 'anat');

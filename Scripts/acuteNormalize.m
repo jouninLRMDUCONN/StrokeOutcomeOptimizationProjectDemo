@@ -4,8 +4,8 @@ function acuteNormalize
 % the TRACE is coregistered to the FLAIR, the FLAIR is normalized
 % BSD 2-Clause license Chris Rorden 12/2023
 
-dirs = dirVisible('/path/to/bids');
-outdir = pwd; //e.g. '/Users/chris/soup/norm';
+dirs = dirVisible('C:\Users\lrm22005\OneDrive - University of Connecticut\Research\Stroke_MRI_data\Stroke_MRI_Segmentation_Project\data\raw');
+outdir = 'C:\Users\lrm22005\OneDrive - University of Connecticut\Documents\Github\StrokeOutcomeOptimizationProjectDemo\norm'; % pwd; //e.g. 
 %dirs = dirVisible('/Users/chris/SOOP/sooper');
 for i = 1 : length(dirs)
     d = fullfile(dirs(i).folder, dirs(i).name, 'anat', '*FLAIR.nii');
